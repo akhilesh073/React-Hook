@@ -1,14 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Example from "./Example";
-
+// import Example from "./Example";
+import UseReducerHook from "./UseReducerHook";
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <Example />
+      <h1>React Hook examples</h1>
+      {/* <Example /> */}
+      <UseReducerHook />
     </div>
   );
 }
