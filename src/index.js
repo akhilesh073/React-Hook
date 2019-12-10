@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 // import Example from "./Example";
 // import UseReducerHook from "./UseReducerHook";
-import UseStateDataFetching from "./UseStateDataFetching";
+// import UseStateDataFetching from "./UseStateDataFetching";
+import UseReducerDataFetching from "./UseReducerDataFetching";
 import "./styles.css";
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       <hr />
       {/* <Example /> */}
       {/* <UseReducerHook /> */}
-      <UseStateDataFetching />
+      {/* <UseStateDataFetching /> */}
+      <UseReducerDataFetching />
     </div>
   );
 }
