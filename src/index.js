@@ -3,7 +3,8 @@ import ReactDOM from "react-dom";
 // import Example from "./Example";
 // import UseReducerHook from "./UseReducerHook";
 // import UseStateDataFetching from "./UseStateDataFetching";
-import UseReducerDataFetching from "./UseReducerDataFetching";
+// import UseReducerDataFetching from "./UseReducerDataFetching";
+import UseCallBackHook from "./UseCallBackHook";
 import "./styles.css";
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/* <Example /> */}
       {/* <UseReducerHook /> */}
       {/* <UseStateDataFetching /> */}
-      <UseReducerDataFetching />
+      {/* <UseReducerDataFetching /> */}
+      <UseCallBackHook />
     </div>
   );
 }
