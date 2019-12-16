@@ -6,7 +6,8 @@ import ReactDOM from "react-dom";
 // import UseReducerDataFetching from "./UseReducerDataFetching";
 // import UseCallBackHook from "./UseCallBackHook";
 // import UseMemoHook from "./UseMemoHook";
-import UseRefHook from "./UseRefHook";
+// import UseRefHook from "./UseRefHook";
+import USeEffectHookForRefValues from "./USeEffectHookForRefValues";
 import "./styles.css";
 
 function App() {
@@ -20,7 +21,8 @@ function App() {
       {/* <UseReducerDataFetching /> */}
       {/* <UseCallBackHook /> */}
       {/* <UseMemoHook /> */}
-      <UseRefHook />
+      {/* <UseRefHook /> */}
+      <USeEffectHookForRefValues />
     </div>
   );
 }
