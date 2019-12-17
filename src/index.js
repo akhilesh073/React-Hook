@@ -8,8 +8,10 @@ import ReactDOM from "react-dom";
 // import UseMemoHook from "./UseMemoHook";
 // import UseRefHook from "./UseRefHook";
 // import USeEffectHookForRefValues from "./USeEffectHookForRefValues";
-import DocTitleOne from "./DocTitleOne";
-import DocTitleTwo from "./DocTitleTwo";
+// import DocTitleOne from "./DocTitleOne";
+// import DocTitleTwo from "./DocTitleTwo";
+import CounterOne from "./CounterOne";
+import CounterTwo from "./CounterTwo";
 import "./styles.css";
 
 function App() {
@@ -25,8 +27,10 @@ function App() {
       {/* <UseMemoHook /> */}
       {/* <UseRefHook /> */}
       {/* <USeEffectHookForRefValues /> */}
-      <DocTitleOne />
-      <DocTitleTwo />
+      {/* <DocTitleOne /> */}
+      {/* <DocTitleTwo /> */}
+      <CounterOne />
+      <CounterTwo />
     </div>
   );
 }
