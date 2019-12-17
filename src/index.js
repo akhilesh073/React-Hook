@@ -7,13 +7,15 @@ import ReactDOM from "react-dom";
 // import UseCallBackHook from "./UseCallBackHook";
 // import UseMemoHook from "./UseMemoHook";
 // import UseRefHook from "./UseRefHook";
-import USeEffectHookForRefValues from "./USeEffectHookForRefValues";
+// import USeEffectHookForRefValues from "./USeEffectHookForRefValues";
+import DocTitleOne from "./DocTitleOne";
+import DocTitleTwo from "./DocTitleTwo";
 import "./styles.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>React Hook examples</h1>
+      <h1>Hook</h1>
       <hr />
       {/* <Example /> */}
       {/* <UseReducerHook /> */}
@@ -22,7 +24,9 @@ function App() {
       {/* <UseCallBackHook /> */}
       {/* <UseMemoHook /> */}
       {/* <UseRefHook /> */}
-      <USeEffectHookForRefValues />
+      {/* <USeEffectHookForRefValues /> */}
+      <DocTitleOne />
+      <DocTitleTwo />
     </div>
   );
 }
