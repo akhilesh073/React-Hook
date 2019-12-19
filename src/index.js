@@ -10,8 +10,9 @@ import ReactDOM from "react-dom";
 // import USeEffectHookForRefValues from "./USeEffectHookForRefValues";
 // import DocTitleOne from "./DocTitleOne";
 // import DocTitleTwo from "./DocTitleTwo";
-import CounterOne from "./CounterOne";
-import CounterTwo from "./CounterTwo";
+// import CounterOne from "./CounterOne";
+// import CounterTwo from "./CounterTwo";
+import InputCustomHook from "./InputCustomHook";
 import "./styles.css";
 
 function App() {
@@ -29,8 +30,9 @@ function App() {
       {/* <USeEffectHookForRefValues /> */}
       {/* <DocTitleOne /> */}
       {/* <DocTitleTwo /> */}
-      <CounterOne />
-      <CounterTwo />
+      {/* <CounterOne /> */}
+      {/* <CounterTwo /> */}
+      <InputCustomHook />
     </div>
   );
 }
